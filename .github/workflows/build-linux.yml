@@ -1,6 +1,9 @@
 name: Linux
 
-on: [push, pull_request]
+on:
+  schedule:
+   - cron: "37 */6 * * *"
+  [push, pull_request]
 
 jobs:
   build-linux:
