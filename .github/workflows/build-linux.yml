@@ -3,7 +3,7 @@ name: Linux
 on:
   schedule:
    - cron: "37 */6 * * *"
-  [push, pull_request]
+  push:
 
 jobs:
   build-linux:
