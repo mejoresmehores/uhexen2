@@ -1,4 +1,3 @@
-initial patch for SDL2 support: based on the original work by jpernst at
 https://github.com/jpernst/uhexen2-sdl2.git
 Things seem to work but needs some polishing and tidy-up before applying:
 One of the most important things is handling SDL2 text input mode.
