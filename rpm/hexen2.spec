@@ -1,5 +1,4 @@
 # RPM spec file for RedHat and Fedora.
-
 # build options :
 # --without alsa: build without alsa audio support
 # --without midi: build without a midi driver support
